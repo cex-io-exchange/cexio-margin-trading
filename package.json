@@ -1,0 +1,41 @@
+{
+  "name": "@cex-io/cexio-margin-trading",
+  "version": "2.0.1",
+  "description": "The official Node.js client for CEX.IO Margin Trading API",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cex-io-exchange/cexio-margin-trading.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cex-io-exchange/cexio-margin-trading/issues"
+  },
+  "homepage": "https://github.com/cex-io-exchange/cexio-margin-trading",
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "API",
+    "exchange",
+    "real-time",
+    "trading",
+    "cryptoexchange",
+    "crypto",
+    "bitcoin",
+    "ethereum",
+    "trade"
+  ],
+  "author": "cex.io",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.9",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "log4js": "^6.9.1",
+    "standard": "^14.3.4"
+  }
+}
